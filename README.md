@@ -1,6 +1,11 @@
-# NgxSplitinputV2
+# split-input library
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.6.
+
+
+## Disclaimer
+
+This project is based on a fork of the ngx-split-input by Max kolb (https://github.com/maxkolb/ngx-splitinput)
 
 ## Development server
 
