@@ -28,18 +28,6 @@
             "tsConfig": "projects/split-input/tsconfig.spec.json",
             "karmaConfig": "projects/split-input/karma.conf.js"
           }
-        },
-        "lint": {
-          "builder": "@angular-devkit/build-angular:tslint",
-          "options": {
-            "tsConfig": [
-              "projects/split-input/tsconfig.lib.json",
-              "projects/split-input/tsconfig.spec.json"
-            ],
-            "exclude": [
-              "**/node_modules/**"
-            ]
-          }
         }
       }
     }},
