@@ -11,7 +11,7 @@ export class SplitInputService {
 
   /** Trigger clearing of a SplitInput */
   clearSplitInput(): void {
-    this.clearSplitInputSource.next();
+    this.clearSplitInputSource.next(true);
   }
 
   /** Emits when a SplitInput has been cleared. */
